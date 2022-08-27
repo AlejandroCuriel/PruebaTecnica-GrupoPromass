@@ -3,13 +3,115 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Globals */
 html {
   font-size: 16px;
+  font-size: 62.5%;
   overflow-x: hidden !important;
 }
 
 body {
   font-weight: 400;
   overflow-x: hidden !important;
-  padding-bottom: 6rem !important;
 }
+
+h1 {
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 5.6rem;
+}
+
+h3 {
+  font-size: 4.8rem;
+}
+
+.seccion {
+  margin: 9rem auto;
+}
+
+/* Carrousel */
+.carousel__hero {
+  background: linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 20%);
+  border-radius: 20px;
+  box-shadow: 0 0.125rem 0.25rem 0rem rgba(97, 112, 137, 0.15);
+  max-width: 95%;
+}
+.carousel__hero img {
+  border-radius: 20px;
+  height: 554px;
+  object-fit: cover;
+  object-position: 0% 20%;
+  position: relative;
+  z-index: -1;
+}
+
+.carousel__hero--description {
+  max-width: 100%;
+  margin-left: -115px;
+  text-align: start;
+}
+.carousel__hero--description h5 {
+  font-weight: 600;
+  font-size: 4.8rem;
+}
+.carousel__hero--description p {
+  font-size: 2.4rem;
+}
+
+.carousel-control-prev {
+  max-width: 20px;
+  margin-left: 3rem;
+}
+
+.carousel-control-next {
+  max-width: 20px;
+  margin-right: 3rem;
+}
+
+/* Subtitles */
+.subtitle h3 {
+  font-size: 4.8rem;
+}
+.subtitle p {
+  font-size: 2.4rem;
+}
+
+.subtitle__friends {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/css/images/friends_2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+/* Circule for subtitle 5 & 6*/
+.circle--golden {
+  background-color: #FFD25F;
+  border-radius: 50%;
+  color: #FFFFFF;
+  font-size: 4.8rem;
+  margin-right: 2rem;
+  padding: 3rem 5.5rem;
+}
+
+/* About us */
+.about__us {
+  background-color: #EAF0FA;
+  padding: 5rem 2rem;
+}
+.about__us h3 {
+  font-size: 4.8rem;
+}
+.about__us p, .about__us a {
+  color: #617089;
+  font-size: 2.4rem;
+}
+.about__us ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+.about__us .footer__info {
+  gap: 18rem;
+}/*# sourceMappingURL=components.css.map */

@@ -3,12 +3,108 @@
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
 
+/* Globals */
+
 html
   font-size: $font-size
+  font-size: 62.5%
   overflow-x: hidden !important
 
 body
   font-weight: 400
   overflow-x: hidden !important
-  padding-bottom: 6rem !important
 
+h1
+  font-size: 6.4rem
+
+h2
+  font-size: 5.6rem
+
+h3
+  font-size: 4.8rem
+
+.seccion
+  margin: 9rem auto
+
+/* Carrousel */
+
+.carousel__hero
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 20%)
+  border-radius: 20px
+  box-shadow: $box-shadow
+  max-width: 95%
+
+
+  img
+    border-radius: 20px
+    height: 554px
+    object-fit: cover
+    object-position: 0% 20%
+    position: relative
+    z-index: -1
+
+
+.carousel__hero--description
+  max-width: 100%
+  margin-left: -115px
+  text-align: start
+
+  h5
+    font-weight: $w-bold
+    font-size: 4.8rem
+
+  p
+    font-size: 2.4rem
+
+.carousel-control-prev
+  max-width: 20px
+  margin-left:3rem
+
+.carousel-control-next
+  max-width: 20px
+  margin-right:3rem
+
+/* Subtitles */
+
+.subtitle
+  h3
+    font-size: 4.8rem
+
+  p
+    font-size: 2.4rem
+
+.subtitle__friends
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/css/images/friends_2.webp)
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+  height: 30rem
+
+/* Circule for subtitle 5 & 6*/
+
+.circle--golden
+  background-color: $golden
+  border-radius: 50%
+  color: $white
+  font-size: 4.8rem
+  margin-right: 2rem
+  padding: 3rem 5.5rem
+
+/* About us */
+.about__us
+  background-color: $gray-light
+  padding: 5rem 2rem
+
+  h3
+    font-size: 4.8rem
+
+  p, a
+    color: $dark
+    font-size: 2.4rem
+
+  ul
+    list-style: none
+    padding-left: 1rem
+
+  .footer__info
+    gap: 18rem
